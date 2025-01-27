@@ -13,6 +13,9 @@ def display_sum(a, b):
     sum_result = calculate_sum(a, b)
     print(f"The sum of {a} and {b} is {sum_result}.")
 
+def hello_world()
+    print("Hello World!")
+
 def main():
     """
     The main function that runs when the script is executed.
@@ -20,6 +23,7 @@ def main():
     num1 = 5
     num2 = 7
 
+    hello_world()
     print("Starting the placeholder script...")
     display_sum(num1, num2)
     print("Script finished.")
